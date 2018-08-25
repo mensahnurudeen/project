@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style> 
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	#container ul{
+		list-style: none;
+	}
+
+	#container ul li{
+		background-color: blue;
+		width:150px;
+		border: 2px solid white;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		float: left;
+		color: white;
+		font-size: 20px;
+		position: relative;
+	}
+#container ul li:hover {
+	background-color: green;
+}
+
+#container ul ul{
+	display: none;
+}
+
+#container ul li:hover > ul{
+	display: block
+}
+
+#container ul ul ul{
+	margin-left: 150px;
+	top: 0px;
+	position: absolute;
+}
+
+
+</style>
+	<meta charset="utf-8"> 
+	<title>My navbar</title>
+</head>
+<body>
+     <div id="container">
+     	<ul>
+        <li>Home</li>
+     	<li>About</li>
+     	<li>News
+         <ul>
+         	<li>Adom online</li>
+         	<li>Joy online
+             <ul>
+             	<li>Sport</li>
+             	<li>jokes</li>
+             	<li>Entertainment</li>
+             </ul>
+         	</li>
+         	<li>Peace online</li>
+         	<li>Gbc online</li>
+         </ul>
+     	</li>
+        <li>Maps</li>
+     	</ul>
+
+     </div>
+</body>
+</html>

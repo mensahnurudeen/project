@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width," initial-scale=1.0>
+	<meta http-equiv="X-UA-compatible" content="ie=edge">
+	<title>my navbar</title>
+	<link rel="stylesheet" type="text/css" href="nuru.css">
+</head>
+<body>
+<nav class="navbar">
+	<span class="open-Slide">
+		<a href="#" onclick="openSlideMenu()">
+			<svg width="30" height="30">
+				<path d="M0,5 30," stroke="#000" stroke-width="5"/>
+				<path d="M0,14 30, 14" stroke="#000" stroke-width="5"/>
+				<path d="M0,23 30, 23" stroke="#000" stroke-width="5"/>
+			</svg>
+		</a>
+	</span>
+	<ul class="navbar-nav">
+		<li><a href="#">Home</li>
+		<li><a href="#">About</li>
+		<li><a href="#">Contact</li>
+		<li><a href="#">Services</li>
+	</ul>
+</nav>
+	<div id="side-menu" class="side-nav">
+		<a href="#" class="btn-close" onclick="CloseSlideMenu()">&times;</a>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+		<a href="#">Services</a>
+	</div>
+<div id="main">
+	<h1>My Best Website</h1>
+</div>
+	<script type="text/javascript">
+		function openSlideMenu(){
+			document.getElementByid('Side-Menu').style.width='250px';
+			document.getElementByid('main').style.marginleft='250px';
+    }
+
+		function CloseSlideMenu(){
+			document.getElementByid('Side-Menu').style.width='0px';
+			document.getElementByid('main').style.marginLeft='0px';
+}
+	</script>
+</body>
+</html>

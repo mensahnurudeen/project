@@ -1,0 +1,63 @@
+ html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial;
+	font-size: 13px;
+	background-color: pink;
+	padding: 10px;
+	margin: 0;
+}
+
+h1{
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	padding: 18px 0 18px 0; 
+	margin: 0;
+}
+
+h1 span{
+	border: 6px dashed  blue;
+	padding: 10px;
+}
+
+p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.img-circle{
+	border: 5px solid blue;
+	border-radius: 50%;
+}
+
+.section{
+	background-color: white;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+#header{
+	background-image: url("nh.jpg");
+	background-size: cover;
+}
+
+#header img{
+	display: block;
+	width: 80px;
+	height: 80px;
+ 	margin: auto;
+}
+
+#header p{
+	font-size: 25px;
+	color: black;
+	padding-top: 5px;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+}

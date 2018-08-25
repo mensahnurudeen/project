@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-color: black;
+		}
+
+		.container{
+			height: 900PX;
+			width: 60%;
+			border-right: 3px  solid  white;
+			border-left: 3px solid white;
+			margin: 0px auto;
+			background-color: white;
+		}
+
+		.text{
+			padding: 30px;
+			color: green;
+			text-align: center;
+			font-family: Arial;
+			font-size: 53px;
+		}
+
+
+		.frame{
+			float: left;
+			margin: 20px;
+			height: 200px;
+			width: 200px;
+			overflow: hidden;
+			border: 5px solid black;
+			-webkit-box-shadow:5px 5px blue;
+			box-shadow:5px 5px black;
+		}
+
+		.picture img{
+			height: 190px;
+			width: 200px;
+
+			-webkit-transition:all is ease;
+			transition:all is ease;
+		}
+	
+		.picture .one:hover{
+			height: 180px;
+     		width: 200px;
+		}
+
+		.picture .two:hover{
+			transform: rotate(60deg);
+		}
+
+		.picture .three:hover{
+			transform: rotate(-60deg);
+
+	</style> 
+	<meta charset="utf-8">
+	<title> My Image Gallery</title>
+</head>
+<body>
+<div class="container">
+	<div class="text">Image Gallery</div>	
+	<hr>
+	<div class="picture frame"><img class="one" src="nh.jpg"></div>
+	<div class="picture frame"><img class="two" src="rb.jpg"></div>
+	<div class="picture frame"><img class="three" src="sch.jpg"></div>
+	<div class="picture frame"><img class="four" src="images/zak.jpg"></div>
+	<div class="picture frame"><img class="five" src="images/train.jpg"></div>
+	<div class="picture frame"><img class="six" src="images/code.jpg"></div>
+	<div class="picture frame"><img class="seven" src="images/cdd.jpg"></div>
+	<div class="picture frame"><img class="eight" src="images/swet.jpg"></div>
+	<div class="picture frame"><img class="nine" src="images/bba.jpg"></div>
+</div>
+</body>
+</html>

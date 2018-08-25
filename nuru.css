@@ -1,0 +1,43 @@
+body{
+	font-family: Arial , serif;
+	background-color: white;
+}
+
+.navbar{
+	background-color: blue;
+	overflow: hidden;
+	height: 63px;
+}
+
+.navbar a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar ul{
+	padding: 8px 0 0 0;
+	list-style: none;
+}
+
+.navbar a:hover{
+	background-color: green;
+	color: pink;
+
+}
+.side-nav{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black;
+	opacity: 0.9;
+	overflow-x: hidden;
+	padding-top: 60px;  
+ }
